@@ -1,0 +1,3 @@
+The makefile can install the riscv32-gnu-toolchain in /opt/riscv and qemu-system-riscv32 and qemu-riscv32.
+Now we can run hello in riscv user mode.
+But there are some errors in make vmlinux.
