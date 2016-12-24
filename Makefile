@@ -22,9 +22,8 @@ run:
 	./riscv-qemu/riscv32-linux-user/qemu-riscv32 -L /opt/riscv/sysroot hello
 
 linux:
-	curl -L https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.6.2.tar.xz | tar -xJ
-	cd linux-4.6.x; git init; git remote add -t master origin https://github.com/riscv/riscv-linux.git; git fetch; git checkout -f -t origin/master
+	cd linux-4.6.2; make ARCH=riscv vmlinux
 
 clean:
 	cd riscv-qemu; clean
-	cd riscv-gnu-toolchain; clean	
+	cd riscv-gnu-toolchain; clean
