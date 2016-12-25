@@ -4,7 +4,5 @@ But Berkeley now doesn't support 32bit-linux much, so I just can run qemu-riscv3
 
 Like RISCV32-B group，if want to boot a RISCV linux kernel, only the RISCV64 linux kernel can run successfully now.
 
-See it in https://github.com/riscv/riscv-qemu/blob/fe43ef40b2632891da9cb31c786ebea7dfe86394/README.md,
-Full-System Simulation using the Spike board and Full-System Simulation compatible with the SiFive U500 SDK,
-and this tow methods both can only support the RISCV64 linux kernel to run successfully.
+See it in https://github.com/riscv/riscv-qemu/blob/fe43ef40b2632891da9cb31c786ebea7dfe86394/README.md,Full-System Simulation using the Spike board and Full-System Simulation compatible with the SiFive U500 SDK, and this tow methods both can only support the RISCV64 linux kernel to run successfully.
 So you can follow it to finish RISCV64 using the Spike board or the SiFive U500 SDK.
